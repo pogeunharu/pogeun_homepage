@@ -309,11 +309,7 @@ const MainScreen = () => {
           <ServiceScreen isColumn={isColumn} setIsColumn={setIsColumn} />
           <PriceScreen />
 
-          <RegistrationScreen
-            isColumn={isColumn}
-            setIsColumn={setIsColumn}
-            registRef={registRef}
-          />
+          <RegistrationScreen setIsColumn={setIsColumn} registRef={registRef} />
 
           {/* 버튼 div */}
           {/* <div
